@@ -1,0 +1,6 @@
+FROM node:21.5.0
+
+WORKDIR /app
+ADD . /app
+RUN npm install
+CMD [ "npm", "run", "check:no-reinstall" ]

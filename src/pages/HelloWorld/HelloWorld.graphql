@@ -1,0 +1,11 @@
+# This is an example of a GraphQL query using the Pokemon GraphQL schema
+
+query GetPokemon {
+  pokemon: pokemon_v2_pokemonsprites(limit: 99999) {
+    sprites
+    info: pokemon_v2_pokemon {
+      name
+      id
+    }
+  }
+}

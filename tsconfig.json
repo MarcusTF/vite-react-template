@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "types": ["vite-plugin-svgr/client", "jest", "@testing-library/jest-dom"],
+
+    /* Absolute paths */
+    "baseUrl": "./src",
+    "paths": {
+      "assets": ["assets"],
+      "components": ["components"],
+      "context": ["context"],
+      "pages": ["pages"],
+      "graphql": ["services/api/graphql"],
+      "rest": ["services/api/rest"],
+      "api": ["services/api"],
+      "utilities": ["services/utilities"],
+      "hooks": ["services/hooks"],
+      "services": ["services"]
+    },
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist", "./templates"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

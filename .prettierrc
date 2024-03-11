@@ -1,0 +1,10 @@
+{
+  "bracketSpacing": true,
+  "quoteProps": "as-needed",
+  "arrowParens": "avoid",
+  "jsxSingleQuote": true,
+  "printWidth": 120,
+  "embeddedLanguageFormatting": "auto",
+  "semi": false,
+  "bracketSameLine": true
+}

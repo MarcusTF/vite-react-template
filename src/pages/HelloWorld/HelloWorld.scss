@@ -1,0 +1,42 @@
+.hello-world {
+  display: grid;
+  padding: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  > .pokemon {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-transform: capitalize;
+    &:hover {
+      transform: scale(2) translateY(-15px);
+      img,
+      svg {
+        filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.213));
+        transform: scale(2) translateX(-2px);
+        transition: transform 0.5s;
+      }
+      p {
+        transition: transform 0.5s;
+        transform: translateX(15px);
+      }
+    }
+    img,
+    svg {
+      width: 50px;
+      height: 50px;
+      transition: transform 0.5s;
+    }
+    p {
+      transition: transform 0.5s;
+    }
+    svg {
+      padding: 5px;
+    }
+  }
+}
