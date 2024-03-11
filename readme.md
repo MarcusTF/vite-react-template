@@ -1,12 +1,14 @@
+
 # React Web App Template
+[![](https://github.com/MarcusTF/vite-react-template/actions/workflows/test.yml/badge.svg)](https://github.com/MarcusTF/vite-react-template/actions/workflows/test.yml)
 
-description goes here
+Description of the project goes here.
 
-This project was bootstrapped with [Vite](https://vitejs.dev/).
+> *This project was bootstrapped with [`Vite`](https://vitejs.dev/).*
 
 ## Libraries
 
-Below is a list of the libraries included in this project and links to their respective documentation. If you get approval to add a new library, please add it to this list. If you have any questions about any of these libraries, please ask!
+Below is a list of the libraries included in this project and links to their respective documentation.
 
 | Dependency                                                                                | Description                                                                                                                           |
 | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
