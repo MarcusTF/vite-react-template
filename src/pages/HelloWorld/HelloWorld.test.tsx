@@ -1,9 +1,11 @@
-import { render } from "@testing-library/react"
+import { render } from '@testing-library/react'
 
-import HelloWorld from "./HelloWorld"
+import { ContextWrapper } from 'services/testingSetup'
+
+import HelloWorld from './HelloWorld'
 
 describe("HelloWorld Component", () => {
   it("renders HelloWorld component without crashing", () => {
-    expect(() => render(<HelloWorld />)).not.toThrow()
+    expect(() => render(<HelloWorld />,{wrapper: ContextWrapper})).not.toThrow()
   })
 })
