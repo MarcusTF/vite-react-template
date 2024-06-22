@@ -79,7 +79,7 @@
     "@vitejs/plugin-react-swc": "^3.3.2",
     "@vitest/coverage-v8": "^1.0.0",
     "concurrently": "^8.2.2",
-    "eslint": "^8.53.0",
+    "eslint": "^9.0.0",
     "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.1",
