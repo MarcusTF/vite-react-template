@@ -56,7 +56,7 @@
     "react-router-dom": "^6.13.0",
     "react-toastify": "^10.0.0",
     "sass": "^1.63.6",
-    "use-immer": "^0.9.0",
+    "use-immer": "^0.10.0",
     "vite-plugin-svgr": "^4.1.0"
   },
   "devDependencies": {
