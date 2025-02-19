@@ -1,7 +1,7 @@
 import { ReactNode } from "react"
 
-export type LoginProps = {
-  // types
+export interface LoginProps {
+  example?: string
 }
 
 export type LoginComponent = (props: LoginProps) => ReactNode

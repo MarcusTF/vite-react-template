@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile.dev
     env_file:
-      - dev.env
+      - .env.dev
     ports:
       - 3000:3000
       - 9222:9222
@@ -16,3 +16,9 @@ services:
       - ./:/app
       - /app/node_modules
     command: npm run start
+  test:
+    build:
+      context: .
+      dockerfile: Dockerfile.test
+    env_file:
+      - .env.dev

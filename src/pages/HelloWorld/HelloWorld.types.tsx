@@ -1,7 +1,7 @@
-import { FC } from "react"
+import { ReactNode } from "react"
 
 export type HelloWorldProps = {
-  // types
+  example?: string
 }
 
-export type HelloWorldComponent = (props: HelloWorldProps) => ReturnType<FC>
+export type HelloWorldComponent = (props: HelloWorldProps) => ReactNode
