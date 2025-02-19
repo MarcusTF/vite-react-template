@@ -11,7 +11,10 @@ module.exports = {
   parser: "@typescript-eslint/parser",
   parserOptions: { ecmaVersion: "latest", sourceType: "module" },
   plugins: ["react-refresh", "jsx-a11y"],
-  rules: { "react-refresh/only-export-components": "warn" },
+  rules: {
+    "react-refresh/only-export-components": "warn",
+    "@typescript-eslint/no-empty-interface": "off",
+  },
   ignorePatterns: [
     "node_modules/",
     "dist/",

@@ -1,7 +1,7 @@
 import { ReactNode } from "react"
 
 export type HelloWorldProps = {
-  // types
+  example?: string
 }
 
 export type HelloWorldComponent = (props: HelloWorldProps) => ReactNode

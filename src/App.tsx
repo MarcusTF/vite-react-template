@@ -20,8 +20,8 @@ function App() {
       {/* If the user is not logged in, redirect them to the login page */}
       {/* <Route element={<PrivateRoute />} path='/'> */}
       {/* The dashboard is a template for the rest of the pages and contains an outlet */}
-      <Route element={<Dashboard />} path='/'>
-        <Route element={<HelloWorld />} path='/' />
+      <Route element={<Dashboard example='' />} path='/'>
+        <Route element={<HelloWorld example='' />} path='/' />
       </Route>
       {/* </Route> */}
     </Routes>

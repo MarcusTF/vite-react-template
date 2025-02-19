@@ -1,7 +1,7 @@
 import { ReactNode } from "react"
 
 export type TemplateNameProps = {
-  // types
+  example?: string
 }
 
 export type TemplateNameComponent = (props: TemplateNameProps) => ReactNode
